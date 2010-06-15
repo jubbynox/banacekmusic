@@ -1,0 +1,124 @@
+body
+{
+	position: fixed;
+	background: #000000 url('background.png') repeat;
+	margin: 0px;
+    padding: 0px;
+    border: 0px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 0;
+}
+
+#textOnly
+{
+	position: absolute;
+	text-align: center;
+	top: 250px;
+	left: 40%;
+	right: 40%;
+}
+
+#audioPlayer
+{
+	position: absolute;
+	top: 0px;
+	left: 10%;
+	right: 20%;
+	height: 125px;
+}
+
+.banner
+{
+	position: absolute;
+    text-align: right;
+    top: 2%;
+    right: 10%;
+}
+
+#albumCarouselShade
+{
+	position: absolute;
+	bottom: 1%;
+    height: 41%;
+    right: 1%;
+    left: 1%;
+	background-color: #000000;
+	opacity: 0.4;
+	border-radius: 10px;
+	filter: alpha(opacity = 40);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#albumCarousel
+{
+	position: absolute;
+    bottom: 3%;
+    height: 37%;
+    right: 3%;
+    left: 3%;
+}
+
+#albumComponentShade
+{
+	overflow: hidden;
+    position: absolute;
+    bottom: 50%;
+    height: 0%;
+    right: 50%;
+    left: 50%;
+    background-color: #000000;
+    z-index: 1;
+    opacity: 0.8;
+    filter: alpha(opacity = 80);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -webkit-transition: bottom 0.3s ease-in-out, height 0.3s ease-in-out, right 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+#albumComponentShade.expand
+{
+	bottom: 5%;
+	height: 85%;
+	right: 0.5%;
+	left: 0.5%;
+}
+
+#albumComponent
+{
+	display: none;
+	position: absolute;
+	bottom: 7%;
+	height: 81%;
+	right: 2.5%;
+	left: 2.5%;
+	z-index: 2;
+}
+
+a
+{
+	outline: none;
+    text-decoration: none;
+}
+
+a img
+{
+    border: none;
+}
+
+.closeButton
+{
+	position: absolute;
+	top: 10%;
+	right: 0.5%;
+    padding: 0px;
+    height: 0px;
+    margin: 0px;
+    border: 0px;
+    z-index: 2;
+    display: none;
+}

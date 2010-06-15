@@ -1,0 +1,34 @@
+body
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+#templates
+{
+    display: none;
+}
+
+.SelectableArea
+{
+	position: absolute;
+	background-color: #000000; /* Without a solid background colour the mouse events don't fire in IE. */
+    opacity: 0;
+    filter: alpha(opacity = 0);
+}
+
+.Highlight
+{
+	background-color: #AAAAFF;
+    opacity: 0.4;
+    border-radius: 5px;
+    filter: alpha(opacity = 40);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}

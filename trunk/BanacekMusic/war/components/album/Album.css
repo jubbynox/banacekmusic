@@ -1,0 +1,36 @@
+body
+{
+	position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+img#cover
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 3;
+}
+
+img#trackListing
+{
+	z-index: 4;
+}
+
+img#trackListing, div#selectableMap
+{
+	position: absolute;
+	right: 0px;
+    bottom: 0px;
+}
+
+#selectableMap
+{
+	z-index: 5;
+}
