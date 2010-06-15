@@ -1,0 +1,83 @@
+body
+{
+	position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+#templates
+{
+	display: none;
+}
+
+.ImageItem
+{
+	vertical-align: top;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 73%;
+}
+
+#carouselViewport
+{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#carouselArea
+{
+	position: absolute;
+	white-space : nowrap;
+	height: 100%;
+}
+
+a
+{
+	outline: none;
+	text-decoration: none;
+}
+
+a img
+{
+	border: none;
+}
+
+#buttonArea a
+{
+	position: absolute;
+    padding: 32px;
+    height: 0px;
+    margin: 0px;
+    border: 0px;
+    bottom: 10px;
+}
+
+#buttonArea a#leftBtn
+{
+	left: 35%;
+	background: url("arrows.png") -64px 0 no-repeat;
+}
+
+#buttonArea a#leftBtn.down
+{
+    background: url("arrows.png") -64px -64px no-repeat;
+}
+
+#buttonArea a#rightBtn
+{
+	right: 35%;
+	background: url("arrows.png") 0 0 no-repeat;
+}
+
+#buttonArea a#rightBtn.down
+{
+    background: url("arrows.png") 0 -64px no-repeat;
+}

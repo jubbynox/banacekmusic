@@ -1,0 +1,201 @@
+body
+{
+    position: absolute;
+    height: 100px;
+    width: 328px;
+    background-color: transparent;
+    overflow: hidden;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+#templates
+{
+    display: none;
+}
+
+div#playerFrame
+{
+	position: absolute;
+	height: 100px;
+	width: 342px;
+	background-color: #222222;
+	opacity: 0.4;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border-style: outset;
+	border-color: #444444;
+	border-width: 3px;
+	filter: alpha(opacity = 40);
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#playerContents
+{
+	position: absolute;
+    left: 6px;
+    top: 6px;
+    width: 328px;
+    height: 88px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+#buttonArea
+{
+	/*position: absolute;*/
+	float: left;
+	top: 0x;
+	height: 25px;
+}
+
+a
+{
+    outline: none;
+    text-decoration: none;
+}
+
+#buttonArea a
+{
+    clear: both;
+    padding: 11px;
+    height: 0px;
+    margin: 2px;
+    border: 0px;
+    top: 2px;
+}
+
+#buttonArea a#previous
+{
+    float: left;
+    background: url("buttons.png") 0px -361px no-repeat;
+}
+
+#buttonArea a#previous.down
+{
+    float: left;
+    background: url("buttons.png") -21px -361px no-repeat;
+}
+
+#buttonArea a#playpause.play
+{
+    float: left;
+    background: url("buttons.png") 0px -89px no-repeat;
+}
+
+#buttonArea a#playpause.play.down
+{
+    float: left;
+    background: url("buttons.png") -21px -89px no-repeat;
+}
+
+#buttonArea a#playpause.pause
+{
+    float: left;
+    background: url("buttons.png") 0px -50px no-repeat;
+}
+
+#buttonArea a#playpause.pause.down
+{
+    float: left;
+    background: url("buttons.png") -21px -50px no-repeat;
+}
+
+#buttonArea a#next
+{
+    float: left;
+    background: url("buttons.png") 0px -401px no-repeat;
+}
+
+#buttonArea a#next.down
+{
+    float: left;
+    background: url("buttons.png") -21px -401px no-repeat;
+}
+
+#playList
+{
+	position: absolute;
+	left: 27px;
+	width: 294px;
+	height: 80px;
+	padding: 3px;
+	overflow: hidden;
+	border-style: inset;
+    border-color: #444444;
+    border-width: 1px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#playListScroll
+{
+	position: absolute;
+}
+
+.InitialSpacer
+{
+	float: left;
+	height: 14px;
+}
+
+.AlbumAndTrack
+{
+	float: left;
+	clear: both;
+	width: 100%;
+	color: #FFFFFF;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 10px;
+}
+
+.AlbumAndTrackText
+{
+	float: left;
+	width: 194px;
+}
+
+.Info
+{
+	float: left;
+	clear: left;
+	width: 50px;
+}
+
+.AlbumName, .TrackName
+{
+    float: left;
+    width: 142px;
+}
+
+div.AlbumImg
+{
+	float: left;
+	width: 100px;
+	overflow: hidden;
+}
+
+img.AlbumImg
+{
+	float: right;
+	height: 50px;
+    border-style: inset;
+    border-color: #444444;
+    border-width: 2px;
+}
+
+.Spacer
+{
+	float: left;
+	clear: left;
+	width: 100%;
+	background-color: #444444;
+	height: 1px;
+	margin: 2px;
+}

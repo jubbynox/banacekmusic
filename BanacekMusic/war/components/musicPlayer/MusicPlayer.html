@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>Music Player</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        
+        <!-- Component meta information. -->
+        <meta name="HTMLComponent" />
+        <meta name="eventUrl" content="/componentFramework/Event.html" />
+        
+        <meta scheme="JSONSchema" name="acceptsEvent" content='{
+                                                                    "add":
+                                                                    {
+                                                                        "type": "object",
+                                                                        "properties":
+                                                                        {
+                                                                            "albumImgUrl": {"type": "string", "format": "url"},
+                                                                            "albumName": {"type": "string"},
+                                                                            "trackNumber": {"type": "integer"},
+                                                                            "trackName": {"type": "string"},
+                                                                            "trackUrl": {"type": "string", "format": "url"}
+                                                                        }
+                                                                    }
+                                                                 }' />
+        
+        <link rel="stylesheet" type="text/css" href="/componentFramework/ComponentFramework.css" />
+        <link rel="stylesheet" type="text/css" href="MusicPlayer.css" />
+        
+        <script type="text/javascript" src="/libraries/jquery-1.3.2.min.js"></script>
+        <script type="text/javascript" src="/libraries/jquery.easing-1.3.js"></script>
+        <script type="text/javascript" src="/libraries/jquery.jplayer.min.js"></script>
+        <script type="text/javascript" src="/libraries/json2.js"></script>
+        <script type="text/javascript" src="/libraries/jsonschema-b4.js"></script>
+        <script type="text/javascript" src="/componentFramework/ComponentFramework.js"></script>
+        <script type="text/javascript" src="MusicPlayer.js"></script>
+        <script type="text/javascript" src="MusicPlayerAnimation.js"></script>
+    </head>
+    <body>
+        <div id="jplayer"></div>
+        <div id="playerFrame"></div>
+        <div id="playerContents">
+            <div id="buttonArea">
+                <a id="previous" href="#" onclick="return false;" title="previous"></a>
+                <a id="playpause" href="#" onclick="return false;" title="playpause" class="play"></a>
+                <a id="next" href="#" onclick="return false;" title="next"></a>
+            </div>
+            <div id="playList">
+                <div id="playListScroll">
+                    <div class="InitialSpacer"></div>
+                </div>
+            </div>
+        </div>
+        <div id="templates">
+            <div class="AlbumAndTrack">
+	            <div class="AlbumAndTrackText">
+	                <div class="Info">Album:</div><div class="AlbumName"></div>
+	                <div class="Info">Track:</div><div class="TrackName"></div>
+	            </div>
+	            <div class="AlbumImg">
+                    <img class="AlbumImg"/>
+                </div>
+	        </div>
+	        <div class="Spacer"></div>
+        </div>
+    </body>
+</html>

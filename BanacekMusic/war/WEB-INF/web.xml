@@ -4,15 +4,18 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd">
 
 <web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+	
 	<servlet>
-		<servlet-name>BanacekMusic</servlet-name>
-		<servlet-class>org.banacek.music.BanacekMusicServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>BanacekMusic</servlet-name>
-		<url-pattern>/banacekmusic</url-pattern>
-	</servlet-mapping>
+        <servlet-name>GetTrackUrl</servlet-name>
+        <servlet-class>org.banacek.music.servlets.GetTrackUrl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetTrackUrl</servlet-name>
+        <url-pattern>/GetTrackUrl</url-pattern>
+    </servlet-mapping>
+
 	<welcome-file-list>
-		<welcome-file>index.html</welcome-file>
+		<welcome-file>main.html</welcome-file>
 	</welcome-file-list>
+	
 </web-app>
