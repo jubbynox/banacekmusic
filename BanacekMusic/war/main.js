@@ -5,6 +5,7 @@ var albumComponent;
 var albumData = new Object();
 var audioPlayer;
 var TRACK_URL = "http://" + window.location.host + "/GetTrackUrl?trackId=";
+var infoOpen = false;
 
 function playerComponentLoaded()
 {
@@ -42,14 +43,31 @@ function albumComponentLoaded()
 	albumComponent.addEventListener('trackSelected', trackSelected);
 }
 
+function pageLoaded()
+{
+	mainAnimation = new MainAnimation();
+	jQuery('#closeSelectedAlbum').click(function(){closeSelectedAlbum(); return false;});
+	jQuery('#openInfo').click(function(){openInfo(); return false;});
+	jQuery('#closeInfo').click(function(){closeInfo(); return false;});
+}
+
+function openInfo()
+{
+	if (!infoOpen)
+	{
+		infoOpen = true;
+		mainAnimation.showInfo();
+	}
+}
+
+function closeInfo()
+{
+	infoOpen = false;
+	mainAnimation.closeInfo();
+}
+
 function albumSelected(eventProperties)
 {
-	if (typeof(mainAnimation) == 'undefined')
-	{
-		mainAnimation = new MainAnimation();
-		jQuery('#closeSelectedAlbum').click(function(){closeSelectedAlbum(); return false;});
-	}
-	
 	if (!isAlbumSelected)
 	{
 		isAlbumSelected = true;

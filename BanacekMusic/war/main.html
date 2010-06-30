@@ -22,12 +22,25 @@
         <script type="text/javascript" src="main.js"></script>
         <script type="text/javascript" src="MainAnimation.js"></script>
     </head>
-    <body onload="ComponentFramework.loadAndRender();">
+    <body onload="ComponentFramework.loadAndRender(); pageLoaded();">
         <div id="textOnly">This is the entire recorded catalogue of Banacek. Browse albums and select tracks to listen to them.</div>
+        <div id="infoShade"></div>
+        <div id="info">
+            This is the entire recorded catalogue of Banacek. Browse albums and select tracks to listen to them.
+            <br>
+            <br>Discover more about Banacek:
+            <br>
+	        <br><a href="http://www.garageband.com/artist/banacek" class="link">@ Garage Band</a>
+	        <br><a href="http://www.ilike.com/artist/Banacek" class="link">@ iLike</a>
+	        <br><a href="http://www.facebook.com/pages/Banacek/10146196245" class="link">@ Facebook</a>
+	        <br><a href="http://www.myspace.com/banacekmusic" class="link">@ MySpace</a>
+        </div>
+        <a id="openInfo" class="Button" href="#"><img title="open info" alt="open info" src="info.png"/></a>
+        <a id="closeInfo" class="Button" href="#"><img title="close info" alt="close info" src="close.png"/></a>
         <div id="audioPlayer" title="Player" class="cf_component_marker">
             <input type="hidden" name="loadedCallback" value='playerComponentLoaded' />
         </div>
-        <div class="banner"><img src="banacek.png" alt="Banacek"/></div>
+        <img src="banacek.png" alt="Banacek" class="banner" />
         <div id="albumCarouselShade"></div>
         <div id="albumCarousel" title="Carousel" class="cf_component_marker">
             <input type="hidden" name="loadedCallback" value='carouselLoaded' />
@@ -36,6 +49,6 @@
         <div id="albumComponent" title="Album" class="cf_component_marker">
             <input type="hidden" name="loadedCallback" value='albumComponentLoaded' />
         </div>
-        <a id="closeSelectedAlbum" class="closeButton" href="#"><img title="close" alt="close" src="close.png"/></a>
+        <a id="closeSelectedAlbum" class="Button" href="#"><img title="close album" alt="close album" src="close.png"/></a>
     </body>
 </html>
