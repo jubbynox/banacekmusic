@@ -34,8 +34,83 @@ body
 {
 	position: absolute;
     text-align: right;
-    top: 2%;
+    top: 3%;
     right: 10%;
+    width: 300px;
+}
+
+#infoShade
+{
+    overflow: hidden;
+    position: absolute;
+    bottom: 50%;
+    height: 0%;
+    right: 50%;
+    left: 50%;
+    background-color: #000000;
+    z-index: 3;
+    opacity: 0.8;
+    filter: alpha(opacity = 80);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -webkit-transition: bottom 0.3s ease-in-out, height 0.3s ease-in-out, right 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+#infoShade.expand
+{
+    bottom: 5%;
+    height: 85%;
+    right: 0.5%;
+    left: 0.5%;
+}
+
+#info
+{
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	top: 20%;
+	color: #FFFFFF;
+	z-index: 4;
+	display: none;
+	font-family: "Courier New", Courier, monospace;
+}
+
+a.link
+{
+	position: relative;
+	left: 20px;
+}
+
+a.link:link, a.link:visited, a.link:hover, a.link:active
+{
+	color: #FFFFFF;
+}
+
+#openInfo
+{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    padding: 0px;
+    height: 0px;
+    margin: 0px;
+    border: 0px;
+    z-index: 4;
+}
+
+#closeInfo
+{
+    position: absolute;
+    top: 10%;
+    right: 0.5%;
+    padding: 0px;
+    height: 0px;
+    margin: 0px;
+    border: 0px;
+    z-index: 4;
+    display: none;
 }
 
 #albumCarouselShade
@@ -110,7 +185,7 @@ a img
     border: none;
 }
 
-.closeButton
+#closeSelectedAlbum
 {
 	position: absolute;
 	top: 10%;
@@ -121,4 +196,13 @@ a img
     border: 0px;
     z-index: 2;
     display: none;
+}
+
+.Button
+{
+	padding: 0px;
+    height: 0px;
+    margin: 0px;
+    border: 0px;
+    z-index: 2;
 }

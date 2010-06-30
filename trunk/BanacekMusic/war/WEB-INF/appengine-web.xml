@@ -9,7 +9,7 @@
 	</system-properties>
 	
 	<static-files>
-        <include path="**" expiration="1s" />
+        <include path="**" expiration="7d" />
     </static-files>
 	
 </appengine-web-app>

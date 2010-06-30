@@ -73,49 +73,49 @@ a
 #buttonArea a#previous
 {
     float: left;
-    background: url("buttons.png") 0px -361px no-repeat;
+    background: url("buttons.png") -21px -361px no-repeat;
 }
 
 #buttonArea a#previous.down
 {
     float: left;
-    background: url("buttons.png") -21px -361px no-repeat;
+    background: url("buttons.png") 0px -361px no-repeat;
 }
 
 #buttonArea a#playpause.play
 {
     float: left;
-    background: url("buttons.png") 0px -89px no-repeat;
+    background: url("buttons.png") -21px -89px no-repeat;
 }
 
 #buttonArea a#playpause.play.down
 {
     float: left;
-    background: url("buttons.png") -21px -89px no-repeat;
+    background: url("buttons.png") 0px -89px no-repeat;
 }
 
 #buttonArea a#playpause.pause
 {
     float: left;
-    background: url("buttons.png") 0px -50px no-repeat;
+    background: url("buttons.png") -21px -50px no-repeat;
 }
 
 #buttonArea a#playpause.pause.down
 {
     float: left;
-    background: url("buttons.png") -21px -50px no-repeat;
+    background: url("buttons.png") 0px -50px no-repeat;
 }
 
 #buttonArea a#next
 {
     float: left;
-    background: url("buttons.png") 0px -401px no-repeat;
+    background: url("buttons.png") -21px -401px no-repeat;
 }
 
 #buttonArea a#next.down
 {
     float: left;
-    background: url("buttons.png") -21px -401px no-repeat;
+    background: url("buttons.png") 0px -401px no-repeat;
 }
 
 #playList
