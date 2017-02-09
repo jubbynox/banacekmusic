@@ -35,6 +35,7 @@ var data =
 				id: "theMidwichCuckoos1",
 				number: 1,
 				name: "Beneath Me",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCMWx6SmlmMGxNZjA&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 431,
@@ -47,6 +48,7 @@ var data =
 				id: "theMidwichCuckoos2",
 				number: 2,
 				name: "Dreamweaver",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCeEJOZ3hrWjVpSjg&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 431,
@@ -59,6 +61,7 @@ var data =
 				id: "theMidwichCuckoos3",
 				number: 3,
 				name: "Dorian's Eyes",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCY09keGJQN3hFM1k&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 431,
@@ -71,6 +74,7 @@ var data =
 				id: "theMidwichCuckoos4",
 				number: 4,
 				name: "Head in the Sand",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCUXFCZmQ3UWFpejg&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 431,
@@ -83,6 +87,7 @@ var data =
 				id: "theMidwichCuckoos5",
 				number: 5,
 				name: "Difficult to Imagine",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCdWkxZzRjRzFVbms&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 431,
@@ -95,6 +100,7 @@ var data =
 				id: "theMidwichCuckoos6",
 				number: 6,
 				name: "What are Words Worth?",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCQ2tCS1BhX1dTSGM&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 431,
@@ -107,6 +113,7 @@ var data =
 				id: "theMidwichCuckoos7",
 				number: 7,
 				name: "She Travelled Aloof",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCX0RVZTN5b2cxVlU&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 431,
@@ -119,6 +126,7 @@ var data =
 				id: "theMidwichCuckoos8",
 				number: 8,
 				name: "The King and I",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCczMweHI0b21wd0U&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 431,
@@ -163,6 +171,7 @@ var data =
 				id: "niceNSleazy1",
 				number: 1,
 				name: "Swirly Song",
+				url: "",
 				imgSel:
 				{
 					x1: 33,
@@ -175,6 +184,7 @@ var data =
 				id: "niceNSleazy2",
 				number: 2,
 				name: "Shining Star",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCRVphcFpNbk14Mzg&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 33,
@@ -187,6 +197,7 @@ var data =
 				id: "niceNSleazy3",
 				number: 3,
 				name: "Commence Avec Banacek",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCbHR3djlGR19CWk0&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 33,
@@ -199,6 +210,7 @@ var data =
 				id: "niceNSleazy4",
 				number: 4,
 				name: "Ever So Clever",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCNmxUMnMwMlBlTDg&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 33,
@@ -211,6 +223,7 @@ var data =
 				id: "niceNSleazy5",
 				number: 5,
 				name: "Spanish Surf",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCcHhlc1R1bjdVR0U&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 33,
@@ -223,6 +236,7 @@ var data =
 				id: "niceNSleazy6",
 				number: 6,
 				name: "Estranged Deranged",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCZkxvU0R0ek40dkE&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 33,
@@ -235,6 +249,7 @@ var data =
 				id: "niceNSleazy7",
 				number: 7,
 				name: "Doie Doie Doie Doie",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCcVlaclZpMDFYUVE&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 33,
@@ -247,6 +262,7 @@ var data =
 				id: "niceNSleazy8",
 				number: 8,
 				name: "Method One",
+				url: "",
 				position: 100,
 				imgSel:
 				{
@@ -292,6 +308,7 @@ var data =
 				id: "angelTech1",
 				number: 1,
 				name: "Commence Avec Banacek",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCeE43UmI5cnJWTW8&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 333,
@@ -304,6 +321,7 @@ var data =
 				id: "angelTech2",
 				number: 2,
 				name: "Swirly Song",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCVERmWkRXVEJ5aFE&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 333,
@@ -316,6 +334,7 @@ var data =
 				id: "angelTech3",
 				number: 3,
 				name: "Broken String",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCRTlqZHYxTDBqU1E&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 333,
@@ -328,6 +347,7 @@ var data =
 				id: "angelTech4",
 				number: 4,
 				name: "Tuning Up Man!",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCeHFLOEZvV1p1Y3M&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 665/2,
@@ -340,6 +360,7 @@ var data =
 				id: "angelTech5",
 				number: 5,
 				name: "Shining Star",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCaXp5ZWI3MmlqcTA&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 665/2,
@@ -352,6 +373,7 @@ var data =
 				id: "angelTech6",
 				number: 6,
 				name: "Liliput Troupe",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCVHVtWXVDbDdkWFU&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 665/2,
@@ -364,6 +386,7 @@ var data =
 				id: "angelTech7",
 				number: 7,
 				name: "Doie Doie Doie Doie",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCT2ZISFZFU3BmNGs&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 665/2,
@@ -376,6 +399,7 @@ var data =
 				id: "angelTech8",
 				number: 8,
 				name: "Method One",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCal9BaVBRMUd3d3c&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 665/2,
@@ -420,6 +444,7 @@ var data =
 				id: "fleeced1",
 				number: 1,
 				name: "Intro",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCTG1JVy15NnNwaEE&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 558/2,
@@ -432,6 +457,7 @@ var data =
 				id: "fleeced2",
 				number: 2,
 				name: "Swirly Song",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCWnZWVDBwdUtPQU0&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 558/2,
@@ -444,6 +470,7 @@ var data =
 				id: "fleeced3",
 				number: 3,
 				name: "Banzai",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCXzZoYW1jVWw1VHM&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 558/2,
@@ -456,6 +483,7 @@ var data =
 				id: "fleeced4",
 				number: 4,
 				name: "Spanish Surf",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCREFuaUdteVZGa2s&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 558/2,
@@ -468,6 +496,7 @@ var data =
 				id: "fleeced5",
 				number: 5,
 				name: "Lilput Troupe",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCbGNJUjVDSmxNUUk&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 558/2,
@@ -480,6 +509,7 @@ var data =
 				id: "fleeced6",
 				number: 6,
 				name: "Apache",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCVW5nd1BTb2d1bmM&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 558/2,
@@ -492,6 +522,7 @@ var data =
 				id: "fleeced7",
 				number: 7,
 				name: "Commence Avec Banacek",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCSm1kMTRlMC00N2c&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 558/2,
@@ -504,6 +535,7 @@ var data =
 				id: "fleeced8",
 				number: 8,
 				name: "Doie Doie Doie Doie",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCTjZPaG0taGxxRzg&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 558/2,
@@ -516,6 +548,7 @@ var data =
 				id: "fleeced9",
 				number: 9,
 				name: "Method One",
+				url: "",
 				imgSel:
 				{
 					x1: 558/2,
@@ -560,6 +593,7 @@ var data =
 				id: "innocentBelle1",
 				number: 1,
 				name: "Intro",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCZEZJc2F6OW9tOFE&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 507/2-80,
@@ -572,6 +606,7 @@ var data =
 				id: "innocentBelle2",
 				number: 2,
 				name: "Swirly Song",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCQ1FpbFVnSDUxX2s&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 507/2-80,
@@ -584,6 +619,7 @@ var data =
 				id: "innocentBelle3",
 				number: 3,
 				name: "Lilput Troupe",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCVll6bUtldVcyZ00&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 507/2-80,
@@ -596,6 +632,7 @@ var data =
 				id: "innocentBelle4",
 				number: 4,
 				name: "Spanish Surf",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCQ2plLTd4Z3JXeUU&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 507/2-80,
@@ -608,6 +645,7 @@ var data =
 				id: "innocentBelle5",
 				number: 5,
 				name: "Banzai",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCMXZ5dVgxOWxRRFU&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 507/2-80,
@@ -620,6 +658,7 @@ var data =
 				id: "innocentBelle6",
 				number: 6,
 				name: "Commence Avec Banacek",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCSjFBMmRUSEd0X2c&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 507/2-80,
@@ -632,6 +671,7 @@ var data =
 				id: "innocentBelle7",
 				number: 7,
 				name: "Apache",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCRnQtMXhWTWJTQjA&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 507/2-80,
@@ -644,6 +684,7 @@ var data =
 				id: "innocentBelle8",
 				number: 8,
 				name: "Method One",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCbUpfVkpCNmtnNnc&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 507/2-80,
@@ -656,6 +697,7 @@ var data =
 				id: "innocentBelle9",
 				number: 9,
 				name: "Innocent Belle",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCemFpelE1NW5iV0k&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 507/2-80,
@@ -700,6 +742,7 @@ var data =
 				id: "banacek1",
 				number: 1,
 				name: "Commence Avec Banacek",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCYVdQUnZEVnBoY3c&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 59/2,
@@ -712,6 +755,7 @@ var data =
 				id: "banacek2",
 				number: 2,
 				name: "Lilput Troupe",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCdkJMd0w4Rmpybnc&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 59/2,
@@ -724,6 +768,7 @@ var data =
 				id: "banacek3",
 				number: 3,
 				name: "Necessary Illusions",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCd3MzVW0tV0ctdW8&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 59/2,
@@ -736,6 +781,7 @@ var data =
 				id: "banacek4",
 				number: 4,
 				name: "Queen Bee",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCWEpYWW14WWtPTk0&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 59/2,
@@ -748,6 +794,7 @@ var data =
 				id: "banacek5",
 				number: 5,
 				name: "Banzai",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCaHo0Y2ZpaUl6UkU&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 59/2,
@@ -760,6 +807,7 @@ var data =
 				id: "banacek6",
 				number: 6,
 				name: "Spanish Surf",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCSHFJbHJBQmpqX28&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 59/2,
@@ -772,6 +820,7 @@ var data =
 				id: "banacek7",
 				number: 7,
 				name: "Method One",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCTkkzbXRHeDF1UG8&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 59/2,
@@ -816,6 +865,7 @@ var data =
 				id: "b3outof41",
 				number: 1,
 				name: "Ted Rogers",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCZ0N0NTdpcF9qNDQ&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 607/2,
@@ -828,6 +878,7 @@ var data =
 				id: "b3outof42",
 				number: 2,
 				name: "Psycho Piccolo",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCdGFRWjJNSFM5S2c&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 607/2,
@@ -840,6 +891,7 @@ var data =
 				id: "b3outof43",
 				number: 3,
 				name: "Turtlesque",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCSGJJaWZhUG9yRVk&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 607/2,
@@ -852,6 +904,7 @@ var data =
 				id: "b3outof44",
 				number: 4,
 				name: "Looking Down on Fireworks from Suspended Heights",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCNHB2U1N1cF9wM2M&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 607/2,
@@ -864,6 +917,7 @@ var data =
 				id: "b3outof45",
 				number: 5,
 				name: "Song 2",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCQzJtYlMwQVEwak0&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 607/2,
@@ -876,6 +930,7 @@ var data =
 				id: "b3outof46",
 				number: 6,
 				name: "Iain Acoustic Song",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCSW8tWlVELW50WGs&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 607/2,
@@ -888,6 +943,7 @@ var data =
 				id: "b3outof47",
 				number: 7,
 				name: "Zeus",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCWW1qdDdpaHh4Ylk&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 607/2,
@@ -932,6 +988,7 @@ var data =
 				id: "crofts1",
 				number: 1,
 				name: "Ted Rogers",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCZUJtYWU4N1luNE0&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 541/2,
@@ -944,6 +1001,7 @@ var data =
 				id: "crofts2",
 				number: 2,
 				name: "Turtlesque",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCVU9ZU0JRS3hlOGs&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 746/2,
@@ -956,6 +1014,7 @@ var data =
 				id: "crofts3",
 				number: 3,
 				name: "Prancing Devil",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCNEpQZ2dfMTlPMkk&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 541/2,
@@ -968,6 +1027,7 @@ var data =
 				id: "crofts4",
 				number: 4,
 				name: "Come On Maria",
+				url: "",
 				imgSel:
 				{
 					x1: 715/2,
@@ -980,6 +1040,7 @@ var data =
 				id: "crofts5",
 				number: 5,
 				name: "Necessary Illusions",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCTEpCbjR0TnpLSkk&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 541/2,
@@ -992,6 +1053,7 @@ var data =
 				id: "crofts6",
 				number: 6,
 				name: "Zeus",
+				url: "https://drive.google.com/uc?id=0B-UFGXGseRGCcTJCdkRwbXVRYzQ&authuser=0&export=download",
 				imgSel:
 				{
 					x1: 798/2,

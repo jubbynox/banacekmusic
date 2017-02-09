@@ -4,7 +4,6 @@ var carouselDiv;
 var albumComponent;
 var albumData = new Object();
 var audioPlayer;
-var TRACK_URL = "http://" + window.location.host + "/GetTrackUrl?trackId=";
 var infoOpen = false;
 
 function playerComponentLoaded()
@@ -109,7 +108,7 @@ function trackSelected(eventProperties)
 		event.albumName = album.name;
 		event.trackNumber = track.number;
 		event.trackName = track.name;
-		event.trackUrl = TRACK_URL + track.id;
+		event.trackUrl = track.url;
 		audioPlayer.fireEvent('add', event);
 	}
 }
